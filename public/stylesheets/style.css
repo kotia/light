@@ -1,0 +1,45 @@
+.canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.canvas-container canvas {
+  background-color: #000;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.chooser-span {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.chooser-span.checked {
+  color: #fff;
+  background-color: #2F6FAD;
+  border-radius: 3px;
+}
+
+.input-field {
+  margin: 20px 0;
+}
+
+.input-field input {
+  font-size: 16px;
+  width: 300px;
+}
